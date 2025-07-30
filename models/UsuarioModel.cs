@@ -8,7 +8,7 @@ namespace user_task_api.model
 
         public DateTime DataCreated { get; set; } = DateTime.UtcNow;
         public DateTime? DataUpdated { get; set; }
-        public DateTime? DataDeleted { get; set; }
+        public DateTime? DataDeleted { get; set; }//
 
         // Relacionamento com TarefaModel
         public ICollection<TarefaModel> Tarefas { get; set; } = new List<TarefaModel>();

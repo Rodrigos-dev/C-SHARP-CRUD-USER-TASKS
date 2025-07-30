@@ -19,6 +19,6 @@ namespace user_task_api.model
         public int UsuarioId { get; set; }
 
         [JsonIgnore] // Ignora a propriedade durante a serialização
-        public UsuarioModel? Usuario { get; set; }
+        public UsuarioModel? Usuario { get; set; }//
     }
 }
